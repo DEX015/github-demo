@@ -1,0 +1,36 @@
+GIT COMANDS::
+git clone
+git pull origin (branch name)
+git status
+git checkout (branch name)
+git add / add.
+git submodule add [ssh link][new file] or src or src/file 
+git push origin (branch name)
+git commit -m "[ticket number] Message "
+git merge branch name
+git stash [save all work on side]
+git stash pop (save on Queue)
+git stash list
+git stash apply stash@2
+git fetch  [branch] (git latest)
+git pull [branch] (git latest + git merge)
+git checkout -b [branch name]
+git branch --help 
+git branch -r (list branch names on origin)
+git reset origin/master
+git submodule update
+git diff
+git submodule update --init --recursive
+git amend
+git clean -f (file name) [clean all untracked]
+git restore
+git log (history of branch)
+git revert (undo)
+git revert --abort 
+git revert --continue
+git submodule foreach 'git reset --hard'
+git submodule foreach 'git clean -dxf'
+git submodule update --init --recursive -f
+git reset --hard
+git config --global core.longpaths true
+git config --system core.longpaths true
